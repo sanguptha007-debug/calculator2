@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat '"C:\\Users\\sanph\\AppData\\Local\\Python\\bin\\python.exe" calculator.py'
+                bat '"C:\\Users\\sanph\\AppData\\Local\\Python\\bin\\python.exe" calculator2.py'
             }
         }
     }
